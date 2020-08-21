@@ -1,0 +1,20 @@
+[
+    {
+        "Id":1,
+        "value":"State"
+    },
+    {
+        "Id":2,
+        "value":"DMA"
+
+    },
+    {
+        "Id":3,
+        "value":"Zip Code"
+
+    },
+    {
+        "Id":4,
+        "value":"N/A" 
+    }
+]

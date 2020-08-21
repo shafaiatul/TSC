@@ -1,0 +1,24 @@
+[
+    {
+        "Id":1,
+        "value":"Segments"
+    },
+    {
+        "Id":2,
+        "value":"Episodes"
+
+    },
+    {
+        "Id":3,
+        "value":"Segments and/or Episodes"
+
+    },
+    {
+        "Id":4,
+        "value":"None" 
+    },
+    {
+        "Id":5,
+        "value":"Others.Enter in comments" 
+    }
+]

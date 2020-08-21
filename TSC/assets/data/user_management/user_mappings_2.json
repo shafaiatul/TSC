@@ -1,0 +1,14 @@
+{
+  "userId": 2,
+  "firstName": "Shafaiatul",
+  "lastName": "Islam",
+  "fullName": "Shafaiatul Islam",
+  "email": "sislam@gmail.com",
+  "phone": "212-259-3432",
+  "code": "External",
+  "claims": [
+    { "id": 6, "name": "Claim Six", "isActive": false },
+    { "id": 5, "name": "Claim Five", "isActive": false },
+    { "id": 7, "name": "Claim Seven", "isActive": true }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "jdoe@horizonmedia.com",
+    "phone": "234-212-3432",
+    "employeeStatus": {
+      "id" : 1, "code": "Horizon"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Shafaiatul",
+    "lastName": "Islam",
+    "email": "sislam@gmail.com",
+    "phone": "212-259-3432",
+    "employeeStatus": {
+      "id" : -1, "code": "External"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Shawn",
+    "lastName": "Jackson",
+    "email": "sjackson@gmail.com",
+    "phone": "234-212-3154",
+    "employeeStatus": {
+      "id" : -1, "code": "External"
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Morgan",
+    "lastName": "Larry",
+    "email": "mlarry@horizonmedia.com",
+    "phone": "234-212-3432",
+    "employeeStatus": {
+      "id" : 1, "code": "Horizon"
+    }
+  }
+]

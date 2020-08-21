@@ -1,0 +1,14 @@
+{
+  "userId": 3,
+  "firstName": "Shawn",
+  "lastName": "Jackson",
+  "fullName": "Shawn Jackson",
+  "email": "sjackson@gmail.com",
+  "phone": "234-212-3154",
+  "code": "External",
+  "claims": [
+    { "id": 2, "name": "Claim Two", "isActive": true },
+    { "id": 5, "name": "Claim Five", "isActive": false },
+    { "id": 7, "name": "Claim Seven", "isActive": true }
+  ]
+}
