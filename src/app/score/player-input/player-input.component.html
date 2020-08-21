@@ -1,0 +1,40 @@
+<div class="player_input_screen">
+  <form (ngSubmit)="startGame()" #playerForm="ngForm">
+    <header>
+      <img src="../../../assets/images/tennisLogo.svg" alt="Tennis Logo">
+      <h2 class="app_name">Tennis Score Control</h2>
+    </header>
+    <main>
+      <div>
+        <mat-form-field appearance="outline">
+          <mat-label>Player 1 (serving first)</mat-label>
+          <input type="text" name="playerOne" [(ngModel)]="player.playerOne" matInput required>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field appearance="outline">
+          <mat-label>Player 2</mat-label>
+          <input type="text" name="playerTwo" [(ngModel)]="player.playerTwo" matInput required>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-label>How many points in each Game?</mat-label>
+          <mat-select [(ngModel)]="player.gamePoints" name="gamePoints" required>
+            <mat-option *ngFor="let point of game_points" [value]="point">
+              {{point}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+    </main>
+    <footer>
+      <button mat-flat-button type="submit" [disabled]="!playerForm.valid">
+        Start</button>
+    </footer>
+
+  </form>
+</div>

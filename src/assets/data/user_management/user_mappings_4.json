@@ -1,0 +1,14 @@
+{
+  "userId": 1,
+  "firstName": "Morgan",
+  "lastName": "Larry",
+  "fullName": "Morgan Larry",
+  "email": "mlarry@horizonmedia.com",
+  "phone": "234-212-3432",
+  "code": "Horizon",
+  "claims": [
+    { "id": 2, "name": "Claim Two", "isActive": true },
+    { "id": 5, "name": "Claim Five", "isActive": false },
+    { "id": 7, "name": "Claim Seven", "isActive": false }
+  ]
+}

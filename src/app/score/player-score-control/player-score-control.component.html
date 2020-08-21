@@ -1,0 +1,54 @@
+<div class="score">
+  <header>
+    <h2>Scoreboard</h2>
+  </header>
+  <main>
+
+    <div class="firstPayer__scoreboard player_score">
+      <div class="player_name">{{playerInfo.playerOne}}
+        <span *ngIf="activeServer1" class="active_serve">Serving...</span>
+      </div>
+      <div class="game_points_tiebreak">
+        <div class="game">{{game1}}</div>
+        <div *ngIf="isGamePoints" class="points">{{point1}}</div>
+        <div *ngIf="isTieBreaker" class="tieBreak">{{tiebreakPoint1}}</div>
+      </div>
+    </div>
+
+    <div class="secondPayer__scoreboard player_score">
+      <div class="player_name">{{playerInfo.playerTwo}}
+        <span *ngIf="activeServer2" class="active_serve">Serving...</span>
+      </div>
+      <div class="game_points_tiebreak">
+        <div class="game">{{game2}}</div>
+        <div *ngIf="isGamePoints" class="points">{{point2}}</div>
+        <div *ngIf="isTieBreaker" class="tieBreak">{{tiebreakPoint2}}</div>
+      </div>
+    </div>
+
+
+    <div class="score_control_for_players score_control">
+      <button class="player_one" mat-stroked-button (click)="playerOneScored('p1')">{{playerInfo.playerOne}}
+        <mat-icon>add</mat-icon>
+      </button>
+      <button class="player_two" mat-stroked-button (click)="playerTwoScored('p2')">{{playerInfo.playerTwo}}
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>
+
+    <div class="score_control_for_players__UNDO score_control">
+      <button class="player_one" mat-button [disabled]="point1 === 0 || point2 === 'Ad' || tiebreakPoint1 === 0"
+        (click)="playerOne_undoScore('p1')">Undo
+        <mat-icon>undo</mat-icon>
+      </button>
+      <button class="player_two" mat-button [disabled]="point2 === 0 || point1 === 'Ad' || tiebreakPoint2 === 0"
+        (click)="playerTwo_undoScore('p2')">Undo
+        <mat-icon>undo</mat-icon>
+      </button>
+    </div>
+  </main>
+  <footer>
+    <button mat-button color="warn" (click)="quitMatch()">
+      Quit Match</button>
+  </footer>
+</div>

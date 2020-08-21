@@ -1,0 +1,8 @@
+[
+  { "ClientId": "1", "ClientName": "Capital One", "Location": "NY" },
+  { "ClientId": "2", "ClientName": "CarMax", "Location": "NY" },
+  { "ClientId": "3", "ClientName": "DermStore", "Location": "NY" },
+  { "ClientId": "4", "ClientName": "Dignity Health", "Location": "NY" },
+  { "ClientId": "5", "ClientName": "FanDuel", "Location": "LA" },
+  { "ClientId": "6", "ClientName": "Gifts.com", "Location": "LA" }
+]

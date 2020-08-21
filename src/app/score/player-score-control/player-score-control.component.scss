@@ -1,0 +1,108 @@
+.score {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  header {
+    text-align: center;
+    background: #8fbc8f99;
+    h2 {
+      font-weight: 500;
+      color: #6d8953;
+      margin: 8px;
+    }
+  }
+
+  main {
+    text-align: center;
+    padding: 10px;
+    .player_score {
+      &.firstPayer__scoreboard {
+        color: #ffffff;
+        background: #eb6182fa;
+        .points, .tieBreak {
+          background: #7b391261;
+        }
+        .tieBreak {
+          border-radius: 50px;
+        }
+      }
+      &.secondPayer__scoreboard {
+        color: #ffffff;
+        background: #118ab2;
+        .points, .tieBreak {
+          background: #00139842;
+        }
+        .tieBreak {
+          border-radius: 50px;
+        }
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      .player_name {
+        text-transform: capitalize;
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: 400;
+        position: relative;
+        span.active_serve {
+          font-size: 12px;
+          position: absolute;
+          left: 0;
+          padding-left: 10px;
+          bottom: -10px;
+          font-style: italic;
+        }
+      }
+      .game_points_tiebreak {
+        display: flex;
+        > div {
+          width: 50px;
+          font-size: 30px;
+          margin-right: 15px;
+        }
+        
+      }
+
+
+
+    }
+    .score_control {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &.score_control_for_players {
+        margin-top: 100px;
+      }
+      &.score_control_for_players__UNDO {
+        margin-top: 20px;
+      }
+      button {
+        margin: 10px 5px;
+        text-transform: capitalize;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+        &.player_one {
+          color: #ef476f;
+        }
+        &.player_two {
+          color: #118ab2;
+        }
+      }
+    }
+  }
+
+  footer {
+    text-align: center;
+    button {
+      font-size: 30px;
+      width: 100%;
+      padding: 2rem;
+    }
+  }
+}
+
+

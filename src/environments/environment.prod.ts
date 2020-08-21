@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  redirectUrl: 'http://localhost:4200',
+  postLogoutRedirectUrl: 'http://localhost:4200'
 };

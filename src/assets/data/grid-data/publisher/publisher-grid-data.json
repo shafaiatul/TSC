@@ -1,0 +1,26 @@
+[
+    {
+      "publisherId":1,
+      "vendorName": "Apple",
+      "granularCount": {"Id":3,"value":"Zip Code"},
+      "customOpportunities": {"Id":3,"value":"Segments and/or Episodes"},
+      "comments": "Additional comments would be seen here",
+      "uploadStart": "01/20/2020"
+    },
+    {
+      "publisherId":2,
+      "vendorName": "iPhone",
+      "granularCount": {"Id":3,"value":"Zip Code"},
+      "customOpportunities": {"Id":1,"value":"Segments"},
+      "comments": "Additional comments would be seen here",
+      "uploadStart": "02/20/2020"
+    },
+    {
+      "publisherId":3,
+      "vendorName": "iTunes",
+      "granularCount": {"Id":3,"value":"Zip Code"},
+      "customOpportunities": {"Id":1,"value":"Segments"},
+      "comments": "Additional comments would be seen here",
+      "uploadStart": "01/04/2020"
+    }
+]

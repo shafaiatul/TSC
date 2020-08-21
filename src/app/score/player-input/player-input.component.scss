@@ -1,0 +1,37 @@
+.player_input_screen {
+  form {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    header {
+      text-align: center;
+      padding: 1rem;
+      img {
+        width: 80px;
+      }
+    }
+
+    main {
+      text-align: center;
+      > div {
+        mat-form-field {
+          width: 100%;
+          padding: 5px 20px;
+        }
+      }
+    }
+
+    footer {
+      text-align: center;
+      button {
+        font-size: 45px;
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+
+
+
